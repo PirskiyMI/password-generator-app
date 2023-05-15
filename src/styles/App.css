@@ -1,0 +1,25 @@
+.wrapper {
+   width: 100vw;
+   height: 100vh;
+   background-color: var(--bg-color);
+   display: flex;
+   overflow: hidden;
+}
+.container {
+   flex: 1 1 auto;
+   max-width: 500px;
+   margin: auto;
+}
+
+.generator {
+   padding: 20px;
+   overflow: hidden;
+   background-color: var(--body-color);
+   @media (min-width: 500px) {
+      border-radius: 15px;
+   }
+}
+
+.ref {
+   font-size: 8px;
+}
